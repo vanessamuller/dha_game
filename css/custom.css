@@ -5,6 +5,10 @@
     width: 32%;
 }
 
+header{
+  background: url(../img/bg-pattern.png),linear-gradient(to left,#2381EB,#1D46B5);
+}
+
 img#full-mobile{
   height:100%;
 }
@@ -24,7 +28,9 @@ section.cta .cta-content h2{
 }
 
 section.cta{
-  background-image: url(../img/landing_peizas/12.png);
+  background-image: url(../img/challenges_piezas/02.png);
+  background-size: inherit;
+    background-repeat: no-repeat;
 }
 
 .cta-content.col-md-12{
@@ -36,6 +42,20 @@ section.cta{
 
 }
 
+.about-p{
+  color:white;
+}
+
+.bg-primary{
+  background:#E6A74A;
+}
+
+
+section.features .feature-item i{
+  background: linear-gradient(to left,#E11A21,#B91817);
+  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 @media (min-width: 768px)
 {
 section.cta .cta-content h2{
